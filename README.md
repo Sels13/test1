@@ -21,10 +21,27 @@
 
 ## installation
 
-> git clone https://github.com/Sels13/test1.git
+```bash
 
-> sudo npm install 
+ git clone https://github.com/Sels13/test1.git
 
-> sudo yarn dev 
+ ```
 
-> sudo npm dev 
+ ```bash
+
+ sudo npm install 
+
+ ```
+ 
+```bash
+
+ sudo yarn dev 
+
+```
+
+
+```bash
+
+ sudo npm dev 
+
+```
