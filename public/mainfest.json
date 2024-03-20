@@ -1,0 +1,12 @@
+{
+    "icons": [
+      {
+        "src": "/public/2Eb-vf5Y_400x400.jpg",
+        "sizes": "192x192",
+        "type": "image/jpg"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+  }

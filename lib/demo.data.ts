@@ -42,7 +42,7 @@ export const description = [
       {
         _key: 'ec5b66c9b1e0',
         _type: 'link',
-        href: 'https://github.com/Sels13',
+        href: '',
       },
       {
         _key: '1f8991913ea8',
