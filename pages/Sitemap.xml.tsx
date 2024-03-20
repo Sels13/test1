@@ -66,12 +66,10 @@ export async function getServerSideProps({ res }) {
       }
     })
 
-  // ... get more routes here
 
-  // Return the default urls, combined with dynamic urls above
+
   const locations = [...defaultUrls, ...postUrls]
 
-  // Set response to XML
   res.setHeader('Content-Type', 'text/xml')
   res.write(createSitemap(locations))
   res.end()

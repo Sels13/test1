@@ -36,7 +36,6 @@ export const settingsStructure = (
   typeDef: DocumentDefinition,
 ): StructureResolver => {
   return (S) => {
-    // The `Settings` root list item
     const settingsListItem = // A singleton not using `documentListItem`, eg no built-in preview
       S.listItem()
         .title(typeDef.title)
@@ -48,7 +47,6 @@ export const settingsStructure = (
             .documentId(typeDef.name),
         )
 
-    // The default root list items (except custom ones)
     const defaultListItems = S.documentTypeListItems().filter(
       (listItem) => listItem.getId() !== typeDef.name,
     )

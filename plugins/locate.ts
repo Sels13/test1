@@ -13,7 +13,6 @@ export const locate: DocumentLocationResolver = (params, context) => {
   }
 
   if (params.type === 'post') {
-    // Listen to the query and fetch the draft and published document
     const doc$ = context.documentStore.listenQuery(
       `*[_id == $id && defined(slug.current)][0]{slug,title}`,
       params,
