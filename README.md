@@ -26,18 +26,21 @@
  git clone https://github.com/Sels13/test1.git
 
  ```
+ <br>
 
  ```bash
 
  sudo npm install 
 
  ```
- 
+ <br>
+
 ```bash
 
  sudo yarn dev 
 
 ```
+<br>
 
 
 ```bash
