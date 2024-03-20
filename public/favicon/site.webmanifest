@@ -3,14 +3,14 @@
   "short_name": "xiaotina",
   "icons": [
     {
-      "src": "/favicon/2Eb-vf5Y_400x400.jpg",
+      "src": "/public/favicon/favicon.ico",
       "sizes": "192x192",
-      "type": "image/jpg"
+      "type": "image/ico"
     },
     {
-      "src": "/favicon/2Eb-vf5Y_512x512.jpg",
+      "src": "/public/favicon/favicon.ico",
       "sizes": "512x512",
-      "type": "image/jpg"
+      "type": "image/ico"
     }
   ],
   "theme_color": "#000000",
