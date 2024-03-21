@@ -41,26 +41,3 @@ npm install && npm run dev
 ```
 
 
-
- <br>
-
- ```bash
-
- sudo npm install 
-
- ```
- <br>
-
-```bash
-
- sudo yarn dev 
-
-```
-<br>
-
-
-```bash
-
- sudo npm dev 
-
-```
