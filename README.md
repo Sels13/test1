@@ -16,6 +16,13 @@
 
 ```bash
 
+ git clone https://github.com/Sels13/test1.git
+
+ ```
+<br>
+
+```bash
+
 npx vercel link
 
 ```
@@ -32,14 +39,9 @@ npx vercel env pull
 ```bash
 npm install && npm run dev
 ```
-<br>
 
 
-```bash
 
- git clone https://github.com/Sels13/test1.git
-
- ```
  <br>
 
  ```bash
